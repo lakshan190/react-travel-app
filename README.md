@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+## Travel List
+Welcome to the Travel List application! This is a simple React application developed using create-react-app. It allows you to create a list of items that you need to pack when planning to travel or fly to another country. You can set the quantity for each item and mark them as packed. The items can be sorted based on their name, description, and packed status.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Add new items to the checklist.
+Set the quantity for each item.
+Mark items as packed.
+Sort the items based on name, description, and packed status.
+Technologies Used
+This application was built using the following technologies:
 
-## Available Scripts
+React v18.2.0
+Create React App
+Getting Started
+To get started with the Travel Checklist application, follow these steps:
 
-In the project directory, you can run:
+Clone the repository: git clone [repository URL]
+Navigate to the project directory: cd travel-checklist
+Install the dependencies: npm install
+Start the development server: npm start
+The application will open in your default browser at http://localhost:3000.
 
-### `npm start`
+## Folder Structure
+java
+Copy code
+travel-checklist/
+  ├── public/
+  │   ├── index.html
+  │   └── ...
+  ├── src/
+  │   ├── App.js
+  │   ├── Form.js
+  │   ├── index.js
+  │   ├── styles.css
+  │   ├── Item.js
+  │   ├── Logo.js
+  │   ├── PackingList.js
+  │   ├── Stats.js
+  │   └── ...
+  ├── package.json
+  └── ...
+The src folder contains the main application code, while the public folder includes the static assets and the entry HTML file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+Once you have the application up and running, follow these steps to use the Travel Checklist:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Enter the name and description of the item you want to add.
+Set the quantity for the item.
+Click the "Add Item" button to add the item to the checklist.
+To mark an item as packed, click the checkbox next to the item.
+Use the sort options to arrange the items based on your preference.
+Contributing
+Contributions to the Travel Checklist application are welcome! If you'd like to contribute, please follow these guidelines:
 
-### `npm test`
+## Fork the repository.
+Create a new branch: git checkout -b my-new-feature
+Make your changes and commit them: git commit -am 'Add some feature'
+Push to the branch: git push origin my-new-feature
+Submit a pull request.
+License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acknowledgments
+This application was developed as a part of a React project.
+Thanks to the React community for their valuable resources and support.
+Contact
+If you have any questions, suggestions, or feedback, please feel free to contact me at [designlakshan@gmail.com].
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using the Travel List application! Safe travels!
