@@ -59,9 +59,26 @@ Push to the branch: git push origin my-new-feature
 Submit a pull request.
 License
 
+## Lessons Learned
+
+While working on this project, I gained valuable experience and learned several important lessons. Here are some of the key takeaways:
+
+- Understanding the fundamentals of React and how to build a simple application using create-react-app.
+- Implementing form inputs, managing state, and handling user interactions in React.
+- Working with component-based architecture and creating reusable React components.
+- Sorting and filtering data based on different criteria using React state and JavaScript functions.
+- Exploring and grasping the concept of derived state in React, which was initially challenging to understand.
+- Leveraging derived state to compute and update component state based on changes in other state values.
+- Overcoming difficulties and effectively utilizing derived state to enhance the functionality and user experience of the application.
+
+I found the concept of derived state particularly challenging at first, but by diving into the documentation and experimenting with code, I was able to gain a solid understanding of its implementation and benefits.
+
+I hope that sharing these insights, including my experience with derived state, will be helpful to other developers who are learning React or working on similar projects.
+
+
 Acknowledgments
-This application was developed as a part of a React project.
-Thanks to the React community for their valuable resources and support.
+This application was developed as a part of a React Course project.
+Thanks Jonas Schmedtmann for his amazing course on React.
 Contact
 If you have any questions, suggestions, or feedback, please feel free to contact me at [designlakshan@gmail.com].
 
